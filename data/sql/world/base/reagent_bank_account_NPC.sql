@@ -34,7 +34,7 @@ INSERT INTO `creature_template` SET
     `RegenHealth` = 1,
     `CreatureImmunitiesId` = 0,
     `flags_extra` = 2,
-    `ScriptName` = 'mod_reagent_bank_account';
+    `ScriptName` = 'npc_reagent_banker_account';
 
 DELETE FROM `creature_template_model` WHERE (`CreatureID` = @Entry);
 INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`, `VerifiedBuild`) VALUES
